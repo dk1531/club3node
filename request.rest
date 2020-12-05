@@ -1,0 +1,23 @@
+GET http://localhost:3000/ 
+
+###
+POST http://localhost:3000/adduser 
+Content-Type: application/json
+
+{
+    "username":"samir"
+
+}
+
+###
+GET http://localhost:3000/user/getusers
+
+###
+
+POST http://localhost:3000/user/adduser
+Content-Type: application/json
+
+{
+    "username":"sa",
+    "useremail":"sam"
+}
