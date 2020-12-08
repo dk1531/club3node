@@ -4,7 +4,9 @@ const bodyparser = require('body-parser')
 //app.use(bodyparser.urlencoded({ extended: true }))
 app.use(express.json())
 const userController = require('./controller/userController')
+const employeeController = require('./controller/employeeController')
 app.use('/user',userController)
+app.use('/employee',employeeController)
 /* 
 const posts = [
 

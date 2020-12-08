@@ -21,3 +21,18 @@ Content-Type: application/json
     "username":"sa",
     "useremail":"sam"
 }
+
+###
+POST http://localhost:3000/employee/addemployee
+Content-Type: application/json
+
+{
+    "employeeName":"parth"
+}
+
+###
+
+GET http://localhost:3000/employee/viewemployees
+
+###
+DELETE http://localhost:3000/employee/deleteemployee/7
